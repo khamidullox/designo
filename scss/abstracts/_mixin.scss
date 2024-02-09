@@ -1,0 +1,15 @@
+@mixin  poragraf($fs, $lh,){
+    font-size: $fs;
+    line-height: $lh;
+    
+}
+@mixin btn-dark($btn-pa,$btn-color, $btn-radius){
+    padding: $btn-pa;
+    background-color: $btn-color;
+    border-radius: $btn-radius;
+}
+@mixin btn-ligh($btn-pa, $btn-bg, $btn-radius ){
+    padding: $btn-pa;
+    background-color: $btn-bg;
+    border-radius: $btn-radius;
+}

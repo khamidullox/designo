@@ -1,0 +1,42 @@
+.main-locatin-canada {
+    margin-bottom: 5rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  
+}
+.main-locatin-canada__content {
+  width: 73rem;
+  height: 33rem;
+  background-color: $collor-gallery;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+padding-left: 8rem;
+gap: 5rem;
+background-image: url('/images/shared/desktop/bg-pattern-two-circles.svg');
+background-position: left bottom;
+background-repeat: no-repeat;
+
+}
+.main-locatin-canada__adderss{
+    display: flex;
+    gap: 10rem;
+    a{
+        color: $BLACK;
+    }
+}
+.main-location-canada__tite {
+    text-transform: none;
+    color: $Peach;
+}
+
+.map{
+  iframe{
+    width: 35rem;
+    height: 33rem;
+    border-radius: 1.5rem;
+  }
+}

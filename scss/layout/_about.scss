@@ -1,0 +1,120 @@
+.about {
+  display: flex;
+  height: 48rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $Peach;
+  border-radius: 1.5rem;
+  margin-bottom: 10rem;
+  background-image: url("/images/about/desktop/bg-pattern-hero-about-desktop.svg");
+  img {
+    border-radius: 0 1.5rem 1.5rem 0;
+  }
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  color: $WHITE;
+  padding: 8rem;
+
+  h1 {
+    text-transform: none;
+  }
+
+  p {
+    width: 45rem;
+    opacity: 0.8;
+  }
+}
+.about-talent {
+  display: flex;
+  height: 64rem;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1.5rem;
+  margin-bottom: 10rem;
+  background-color: $collor-gallery;
+  gap: 8rem;
+  background-image: url("/images/shared/desktop/bg-pattern-three-circles.svg");
+  img {
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+}
+.about-talent__content {
+  padding-right: 10rem;
+  display: flex;
+
+  flex-direction: column;
+  gap: 3rem;
+  // align-items: center;
+  justify-content: space-between;
+  h2 {
+    color: $Peach;
+    text-transform: none;
+  }
+}
+.about-nav {
+  margin-bottom: 10rem;
+}
+.about-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-nav__item {
+  width: 35rem;
+  height: 36rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  img {
+    width: 20rem;
+    height: 20rem;
+    background-image: url("/images/Oval.png");
+  }
+  h3 {
+    letter-spacing: 5px;
+    font-weight: 400;
+  }
+}
+.btn-dark {
+}
+.about-nav__link {
+  color: $WHITE;
+  background-color: $Peach;
+  &:hover {
+    background-color: $LIGHT-PEACH;
+  }
+}
+.about-deal {
+  display: flex;
+  height: 64rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $collor-gallery;
+  border-radius: 1.5rem;
+  margin-bottom: 10rem;
+  padding-left: 9rem;
+  background-image: url("/images/shared/desktop/bg-pattern-two-circles.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  
+  img {
+    border-radius: 0 1.5rem 1.5rem 0;
+  }
+}
+.about-deal__content {
+  padding-right: 10rem;
+  display: flex;
+
+  flex-direction: column;
+  gap: 3rem;
+  // align-items: center;
+  justify-content: space-between;
+  h2 {
+    color: $Peach;
+    text-transform: none;
+  }
+}

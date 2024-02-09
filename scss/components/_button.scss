@@ -1,0 +1,6 @@
+.btn-dark{
+    @include btn-dark($btn-pading, $btn-collor , $btn-rad)
+}
+.btn-ligh{
+    @include btn-ligh($btn-pading, $btn-bg , $btn-rad)
+    }

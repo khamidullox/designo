@@ -1,0 +1,180 @@
+.main-home__award {
+  background-color: $Peach;
+  height: 64rem;
+  margin-bottom: 16rem;
+  border-radius: 1.5rem;
+  background-image: url("/images/home/desktop/image-hero-phone.png"),
+    url("/images/home/desktop/bg-pattern-hero-home.svg");
+  background-repeat: no-repeat;
+  background-position: right -10% bottom 100%;
+}
+.main-home__content {
+  height: 35rem;
+  width: 80rem;
+  display: flex;
+  flex-direction: column;
+  padding: 15rem 10rem;
+  gap: 2rem;
+}
+.main-home__title {
+  color: $WHITE;
+}
+.main-home__text {
+  color: $WHITE;
+}
+.main-home__link {
+  color: $BLACK;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 15rem;
+  &:hover {
+    background-color: $LIGHT-PEACH;
+    color: $WHITE;
+  }
+}
+.main-home__desktop-nav {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 10rem;
+  align-items: center;
+  justify-content: center;
+  a {
+    color: $WHITE;
+  }
+}
+.main-home__desktop-link {
+  height: 63rem;
+  width: 54rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/home/desktop/image-web-design-large.jpg");
+  color: $WHITE;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  cursor: pointer;
+  &:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.9),
+        rgba(231, 129, 107, 0.9)
+      ),
+      url("/images/home/desktop/image-web-design-large.jpg");
+  }
+}
+.main-home__desktop-web {
+}
+.main-home__link-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.main-home__desktop-link-app {
+  width: 54rem;
+  height: 30rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("/images/home/desktop/image-app-design.jpg");
+  color: $WHITE;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  cursor: pointer;
+  &:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.9),
+        rgba(231, 129, 107, 0.9)
+      ),
+      url("/images/home/desktop/image-app-design.jpg");
+  }
+}
+.main-home__desktop-link-graphic {
+  width: 54rem;
+  height: 30rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("/images/home/desktop/image-graphic-design.jpg");
+  color: $WHITE;
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  cursor: pointer;
+  &:hover {
+    background-image: linear-gradient(
+        rgba(231, 129, 107, 0.9),
+        rgba(231, 129, 107, 0.9)
+      ),
+      url("/images/home/desktop/image-graphic-design.jpg");
+  }
+}
+.main-home__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 15rem;
+}
+.main-home__advenchi {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  align-items: center;
+  width: 35rem;
+  h3 {
+    letter-spacing: 5px;
+  }
+
+  .main-home__text {
+    color: $BLACK;
+    text-align: center;
+  }
+  img {
+    background-image: url("/images/Oval.png");
+    width: 20rem;
+    height: 20rem;
+  }
+}
+.main-about {
+  height: 30rem;
+  background-color: $Peach;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem;
+  background-image: url("/images/shared/desktop/bg-pattern-call-to-action.svg");
+  background-position: left;
+  margin-bottom: -6rem;
+  position: relative;
+}
+.main-about__content {
+  width: 46rem;
+}
+.main-about__title {
+  color: $WHITE;
+  width: 40rem;
+  padding-bottom: 2rem;
+  font-weight: 500;
+}
+.main-about__text {
+  color: $WHITE;
+}
+
+.main-about__btn {
+  width: 16rem;
+  height: 6rem;
+  color: $BLACK;
+  text-transform: uppercase;
+  font-weight: 500;
+  &:hover {
+    background-color: $LIGHT-PEACH;
+    color: $WHITE;
+  }
+}
