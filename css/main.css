@@ -620,6 +620,104 @@ address {
   background-image: linear-gradient(rgba(231, 129, 107, 0.9), rgba(231, 129, 107, 0.9)), url("/images/home/desktop/image-app-design.jpg");
 }
 
+.main-contact {
+  display: flex;
+  height: 48rem;
+  background-color: #E7816B;
+  margin-bottom: 10rem;
+  border-radius: 1.5rem;
+  align-items: center;
+  background-image: url("/images/contact/desktop/bg-pattern-hero-desktop.svg");
+  background-repeat: no-repeat;
+  gap: 5rem;
+  padding: 9.5rem 5.5rem;
+}
+
+.main-contact__content {
+  width: 54rem;
+  height: 18rem;
+  padding-left: 7rem;
+}
+
+.main-contact__title {
+  text-transform: none;
+  color: #FFFFFF;
+  padding-bottom: 3rem;
+}
+
+.main-contact__text {
+  color: #FFFFFF;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.input-content {
+  width: 38rem;
+  height: 37rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 4rem;
+}
+
+input,
+textarea {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+  border-bottom: 1px solid #FFFFFF;
+  height: 5rem;
+  opacity: 0.6;
+}
+input:hover,
+textarea:hover {
+  border-bottom: 2px solid #FFFFFF;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+::placeholder {
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+textarea {
+  height: 10rem;
+  width: 38rem;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-input {
+  width: 15.6rem;
+  height: 5.5rem;
+  text-transform: uppercase;
+  padding: 1.7rem 4.7rem;
+  background-color: #FFFFFF;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+}
+.btn-input:hover {
+  background-color: #FFAD9B;
+  color: #FFFFFF;
+}
+
+form:last-child {
+  text-align: end;
+}
+
+.btn-submit {
+  width: 38rem;
+}
+
 .main-locatin-canada {
   margin-bottom: 5rem;
   display: flex;
