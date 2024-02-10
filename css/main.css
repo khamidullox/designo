@@ -500,7 +500,7 @@ address {
   color: #FFFFFF;
 }
 
-.main-web__start {
+.main-web {
   height: 30rem;
   background-color: #E7816B;
   border-radius: 1.5rem;
@@ -758,7 +758,7 @@ form:last-child {
   color: #FFAD9B;
 }
 
-.main-location-canada__tite {
+.main-locatin-canada__titele {
   text-transform: none;
   color: #E7816B;
 }
