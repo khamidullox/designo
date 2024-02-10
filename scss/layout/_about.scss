@@ -56,6 +56,7 @@
 }
 .about-nav {
   margin-bottom: 10rem;
+  
 }
 .about-nav__list {
   display: flex;
@@ -81,6 +82,7 @@
 }
 .btn-dark {
 }
+
 .about-nav__link {
   color: $WHITE;
   background-color: $Peach;
@@ -117,4 +119,10 @@
     color: $Peach;
     text-transform: none;
   }
+}
+.bg-about{
+  background-image: url('/images/shared/desktop/bg-pattern-leaf.svg');
+  background-position:bottom 100%;
+  background-repeat: no-repeat;
+
 }

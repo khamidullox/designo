@@ -27,6 +27,9 @@ background-repeat: no-repeat;
     a{
         color: $BLACK;
     }
+    a:hover{
+      color: $LIGHT-PEACH;
+    }
 }
 .main-location-canada__tite {
     text-transform: none;

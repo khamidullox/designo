@@ -253,6 +253,12 @@ address {
   text-transform: none;
 }
 
+.bg-about {
+  background-image: url("/images/shared/desktop/bg-pattern-leaf.svg");
+  background-position: bottom 100%;
+  background-repeat: no-repeat;
+}
+
 .footer {
   background-color: #1D1C1E;
   padding-bottom: 7rem;
@@ -747,6 +753,9 @@ form:last-child {
 }
 .main-locatin-canada__adderss a {
   color: #1D1C1E;
+}
+.main-locatin-canada__adderss a:hover {
+  color: #FFAD9B;
 }
 
 .main-location-canada__tite {
